@@ -1,11 +1,19 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          {/* <Route path="/" element={<Rockets />} />
+          <Route path="/missions" element={<Missions />} />
+          <Route path="/my-profile" element={<Profile />} /> */}
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
