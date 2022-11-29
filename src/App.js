@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
+import Profiles from './components/Profiles';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route path="/missions" element={<Missions />} />
           <Route path="/my-profile" element={<Profile />} /> */}
         </Routes>
+        <Profiles />
       </BrowserRouter>
     </div>
   );

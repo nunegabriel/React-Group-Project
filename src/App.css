@@ -1,3 +1,9 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 15em 8em;
+}
+
 .navbar {
   display: flex;
   height: 5.938rem;
