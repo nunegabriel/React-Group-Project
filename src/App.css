@@ -1,9 +1,3 @@
-.profile {
-  display: flex;
-  justify-content: space-between;
-  padding: 1em 15em 8em;
-}
-
 .navbar {
   display: flex;
   height: 5.938rem;
@@ -35,28 +29,58 @@
   gap: 10%;
 }
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+.rocketList {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  margin-top: 44px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-td,
-th {
-  border: 1px solid #ddd;
-  text-align: left;
-  padding: 20px;
-  width: inherit;
+.rocketCard {
+  display: flex;
+  justify-content: flex-start;
+  gap: 22px;
 }
 
-.desc {
-  width: 70%;
+img {
+  width: 30%;
+  height: auto;
+  object-fit: contain;
 }
 
-tr:nth-child(even) {
-  background-color: #ddd;
+.status {
+  background-color: blue;
 }
 
 .missions {
-  padding: 1em 2em 2em;
+  margin: 50px;
+  text-align: left;
+}
+
+.missions-table {
+  border: 1px solid;
+}
+
+tr {
+  width: 100%;
+}
+
+td {
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table th {
+  padding: 15px;
 }
