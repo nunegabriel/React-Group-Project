@@ -1,4 +1,3 @@
-/* eslint-disable */ 
 import React from 'react';
 
 const Profiles = () => (
@@ -7,7 +6,8 @@ const Profiles = () => (
       <p className="missions-title">My missions</p>
     </div>
     <div className="My Rockets">
-        <p>My Rockets</p></div>
+      <p>My Rockets</p>
+    </div>
   </div>
 );
 
