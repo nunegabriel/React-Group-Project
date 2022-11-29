@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../images/planet.png';
@@ -10,7 +11,7 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <img src={logo} className="logo" alt="logo" />
-      <h1 className="logo-title"> Space Travelers Hub</h1>
+      <h1 className="logo-title"> Space Travelers' Hub </h1>
       <nav>
         <ul className="NavLinks">
           <li>
