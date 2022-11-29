@@ -41,8 +41,9 @@ table {
   width: 100%;
 }
 
-td, th {
-  border: 1px solid #dddddd;
+td,
+th {
+  border: 1px solid #ddd;
   text-align: left;
   padding: 20px;
   width: inherit;
@@ -53,7 +54,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #ddd;
 }
 
 .missions {
