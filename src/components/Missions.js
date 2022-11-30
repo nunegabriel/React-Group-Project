@@ -1,55 +1,21 @@
-import React from 'react';
+/* eslint-disable no-unused-vars */
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchMissions } from '../redux/missions/missionsSlice';
 
-const Missions = () => (
-  <div className="missions">
-    <table>
-      <tr>
-        <th>Mission</th>
-        <th>Description</th>
-        <th>Status</th>
-        <th> </th>
-      </tr>
-      <tr>
-        <td>Lorem </td>
-        <td className="desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Aliquam id dictum lectus. Suspendisse sed eros quis
-          metus efficitur sollicitudin ac dapibus tortor.
-          Donec volutpat, sem nec dictum ultricies,
-          orci metus ultricies arcu,
-          vel hendrerit quam tortor vel mauris.
-          Ut vehicula bibendum odio nec iaculis.
-        </td>
-        <td>
-          <button type="submit">Not A member</button>
-        </td>
-        <td>
-          <button type="submit">Join Mission</button>
-        </td>
-      </tr>
+const Missions = () => {
+  // get missions data from the store
+  const missions = useSelector((state) => state.missions);
+  const dispatch = useDispatch();
 
-      <tr>
-        <td>Lorem </td>
-        <td className="desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Aliquam id dictum lectus. Suspendisse sed eros quis
-          metus efficitur sollicitudin ac dapibus tortor.
-          Donec volutpat, sem nec dictum ultricies,
-          orci metus ultricies arcu,
-          vel hendrerit quam tortor vel mauris.
-          Ut vehicula bibendum odio nec iaculis.
-        </td>
-        <td>
-          <button type="submit">Not A member</button>
-        </td>
-        <td>
-          <button type="submit">Join Mission</button>
-        </td>
-      </tr>
+  useEffect(() => {
+    dispatch(fetchMissions());
+  }, [dispatch]);
 
-    </table>
-  </div>
+  return (
+    <div>Misions</div>
 
-);
+  );
+};
 
 export default Missions;
