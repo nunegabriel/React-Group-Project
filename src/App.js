@@ -6,7 +6,7 @@ import './App.css';
 import Profiles from './components/Profiles';
 import Missions from './components/Missions';
 import Navbar from './components/Navbar';
-import Rockets from './components/rockets/Rockets';
+// import Rockets from './components/rockets/Rockets';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Rockets />} />
+          {/* <Route path="/" element={<Rockets />} /> */}
           <Route path="/missions" element={<Missions />} />
           <Route path="/my-profile" element={<Profiles />} />
 
