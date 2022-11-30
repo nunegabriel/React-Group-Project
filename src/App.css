@@ -54,33 +54,28 @@ img {
   background-color: blue;
 }
 
-.missions {
-  margin: 50px;
-  text-align: left;
-}
-
-.missions-table {
-  border: 1px solid;
-}
-
-tr {
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
   width: 100%;
 }
 
-td {
-  padding: 5px;
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 20px;
+  width: inherit;
 }
 
-table {
-  border-collapse: collapse;
+.desc {
+  width: 70%;
 }
 
-table,
-th,
-td {
-  border: 1px solid black;
+tr:nth-child(even) {
+  background-color: #ddd;
 }
 
-table th {
-  padding: 15px;
+.missions {
+  padding: 1em 2em 2em;
 }
