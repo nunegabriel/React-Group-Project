@@ -80,7 +80,7 @@ tr:nth-child(even) {
   padding: 1em 2em 2em;
 }
 
-/*My Profile*/
+/* My Profile */
 .profile {
   width: 90%;
   display: flex;
@@ -97,17 +97,17 @@ tr:nth-child(even) {
   border-radius: 5px;
 }
 
-.activeRockets>ul {
+.activeRockets > ul {
   padding-right: 0;
   margin: 0;
 }
 
-.activeRockets>ul>li {
+.activeRockets > ul > li {
   list-style: none;
   border-bottom: 1px solid rgb(197, 197, 197);
   padding: 10px 0 15px 10px;
 }
 
-.activeRockets>ul>li:last-child {
+.activeRockets > ul > li:last-child {
   border-bottom: none;
 }
