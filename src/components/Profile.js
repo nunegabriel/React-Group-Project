@@ -5,31 +5,11 @@ import { Link } from 'react-router-dom';
 const Profile = () => {
   const { rockets } = useSelector((state) => state.rockets);
   const reservedRockets = rockets.filter((rocks) => rocks.active);
-  const missions = useSelector((state) => state.missions.missions);
-  const joinedMissions = missions.filter((i) => i.reserved);
 
   return (
     <div className="profile">
-      <div className="missions-profile">
+      <div className="missions">
         <h3>My Missions</h3>
-        <div className="activeMissions">
-          {!joinedMissions.length
-            && (
-              <div className="no-missions">
-                <p>No active missions</p>
-                <p className="make-reseversations">
-                  <Link to="/missions" className="reserve-btn">
-                    Make Reservations
-                  </Link>
-                </p>
-              </div>
-            )}
-          <ul>
-            {joinedMissions.map((mission) => (
-              <li key={mission.id}>{mission.name}</li>
-            ))}
-          </ul>
-        </div>
       </div>
       <div className="rockets">
         <h3>My Rockets</h3>
@@ -47,6 +27,7 @@ const Profile = () => {
             </ul>
           </div>
         )}
+
       </div>
     </div>
   );
