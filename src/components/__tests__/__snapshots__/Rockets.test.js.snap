@@ -6,21 +6,49 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="rocketList"
+        class="rocket"
       >
-        <p>
-          Loading...
-        </p>
+        <div
+          class="img-container"
+        >
+          <img />
+        </div>
+        <div
+          class="rocket-info"
+        >
+          <h3 />
+          <p />
+          <button
+            class="btn"
+            type="button"
+          >
+            Reserve Rocket
+          </button>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="rocketList"
+      class="rocket"
     >
-      <p>
-        Loading...
-      </p>
+      <div
+        class="img-container"
+      >
+        <img />
+      </div>
+      <div
+        class="rocket-info"
+      >
+        <h3 />
+        <p />
+        <button
+          class="btn"
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
     </div>
   </div>,
   "debug": [Function],
