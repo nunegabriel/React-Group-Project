@@ -78,8 +78,8 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- ** book rockets **
-- ** join selected space missions **
+- book rockets
+- join selected space missions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,6 +178,9 @@ To run tests, run the following command:
 - LinkedIn: [Abdelhafid Nejjari](https://www.linkedin.com/in/abdelhafid-nejjari)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+- [ ] A dragon section would be added
 
 <!-- CONTRIBUTING -->
 
