@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { joinMission, fetchMissions, leaveMission } from '../redux/missions/missionSlice'
 
 function Missions() {
-
   const missions = useSelector((state) => state.missions);
   const dispatch = useDispatch();
   const initMission = [];
