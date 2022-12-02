@@ -171,11 +171,11 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/_cornrow)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nunekpeku-623608173/)
 
-👤 **Author2**
+👤 **Nejjari Abdelhafid**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [ @Nejjari001](https://github.com/Nejjari001)
+- Twitter: [@AbdoNJ19](https://https//twitter.com/AbdoNJ19)
+- LinkedIn: [Abdelhafid Nejjari](https://www.linkedin.com/in/abdelhafid-nejjari)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
