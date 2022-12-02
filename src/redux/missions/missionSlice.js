@@ -23,6 +23,7 @@ export const fetchMissions = () => (dispatch) => {
       .then((response) => response.json())
       .then((json) => dispatch(orgMissions(json)));
   } catch (e) {
+    // eslint-disable-next-line no-console
     console.log('error');
   }
 };
