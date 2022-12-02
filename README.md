@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-  <h3><b>Space Travelers' Hub</b></h3>
+# <h3><b>Space Travelers' Hub</b></h3>
 
 </div>
 
@@ -78,9 +78,6 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
 - ** book rockets **
 - ** join selected space missions **
 
@@ -182,10 +179,6 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -216,11 +209,6 @@ Hat tip to anyone whose code was used.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
